@@ -1,0 +1,10 @@
+let’s imagine you have a box of chocolates. Each chocolate in the box has a unique name and a unique number.
+
+The name could be something like “Milk Chocolate”, “Dark Chocolate”, “White Chocolate”, etc. These names are like the labels in a pandas DataFrame, and you can use loc to find chocolates by their names. So, if you say box.loc["Milk Chocolate"], you will get the Milk Chocolate.
+
+The number is like the position of the chocolate in the box. It could be the 1st chocolate, the 2nd chocolate, and so on. These numbers are like the integer-based locations in a pandas DataFrame, and you can use iloc to find chocolates by their numbers. So, if you say box.iloc[1], you will get the second chocolate in the box (because counting starts from 0).
+
+So, in summary:
+
+loc is label-based, which means that you have to specify the name of the rows or columns that you need to filter out.
+iloc, on the other hand, is integer index-based. So here, you have to specify rows and columns by their integer index.
